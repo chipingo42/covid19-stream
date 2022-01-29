@@ -1,0 +1,495 @@
+.project-flex {
+    display: flex;
+    width: 100%;
+}
+
+.content-protect {
+    position: relative;
+    top: -70px;
+    width: 1200px;
+    height: 872px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* svg */
+.protect-side-img svg {
+    position: relative;
+    top: 90px;
+}
+
+/* menu side */
+.how-to-protect-covid {
+    position: relative;
+    top: 80px;
+    left: 47px;
+}
+
+.how-to-protect-covid h1 {
+    width: 600px;
+    height: 86px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.how-to-protect-covid p {
+    width: 544px;
+    height: 116px;
+    padding-top: 3px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 193.6%;
+    color: #5F6368;
+}
+
+/* what shoild i do */
+.what-i-do h1 {
+    width: 162px;
+    height: 38px;
+    padding-top: 14px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 209.6%;
+   color: #000000;
+}
+
+.what-i-do span {
+    color: #16B442;
+}
+
+/* covid-itms */
+.covid-itm {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   margin-right: 80px;
+}
+
+.covid-itms {
+    position: relative;
+    top: 7px;
+    left: -10px;
+    margin: 20px 9px;
+    width: 154px;
+    height: 151px;
+    border: 1px solid #F1F4FA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.down-two {
+    position: relative;
+    left: 45px;
+}
+
+.down-last {
+    position: relative;
+    left: -42px;
+}
+
+
+
+.covid-itms p {
+    width: 141px;
+    height: 27px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 209.6%;
+    color: #000000;
+}
+
+
+
+.covid-itms .facemask p {
+    width: 101px;
+    height: 27px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 209.6%;
+    color: #000000;
+}
+
+/* face */
+.face p{
+    position: relative;
+    left: 10px;
+   width: 130px; 
+   height: 27px;
+   text-align: center;
+   font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 209.6%;
+    color: #000000;
+}
+
+
+/* contact */
+.contact p {
+    position: relative;
+    left: 14px;
+    width: 118px;
+    height: 27px;       
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 209.6%;
+    color: #000000;
+}
+
+.safe p {
+    position: relative;
+    left: -16px;
+    width: 184px;
+    height: 27px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 209.6%;
+    color: #000000;
+}
+
+/* home */
+.home p {
+    position: relative;
+    left: 3px;
+    width: 145px;
+    height: 27px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 209.6%;
+    color: #000000;
+}
+
+
+
+/* facemask */
+.facemask span img {
+    position: relative;
+    left: 30px;
+    top: 9px;
+    width: 80px;
+    height: 80px;
+}
+
+/* face */
+.face span img {
+    position: relative;
+    left: 30px;
+    top: 9px;
+    width: 80px;
+    height: 80px;
+}
+
+/* contact */
+.contact span img {
+    position: relative;
+    left: 30px;
+    top: 9px;
+    width: 80px;
+    height: 80px;
+}
+
+/* safe */
+.safe span img {
+    position: relative;
+    left: 30px;
+    top: 9px;
+    width: 80px;
+    height: 80px;
+}
+
+/* home */
+.home span img {
+    position: relative;
+    left: 30px;
+    top: 9px;
+    width: 80px;
+    height: 80px;
+}
+
+.home p span {
+    color: #000000;
+}
+
+
+@media screen and (max-width: 768px) {
+    .project-flex {
+        display: block;
+    }
+    .content-protect {
+        width: 687px;
+        height: 1450px;
+        position: relative;
+        top: 220px;
+        margin: 0 40px;
+    }
+
+    .how-to-protect-covid  {
+       position: relative;
+       top: 140px;
+    }
+
+    .how-to-protect-covid h1 {
+        position: relative;
+        left: -40px;
+        width: 749px;
+        font-size: 35px;
+    }
+
+    .how-to-protect-covid h1 span {
+        position: relative;
+        left: -7px;
+    }
+
+    .how-to-protect-covid p {
+        position: relative;
+        left: -40px;
+        width: 690px;
+    }
+
+    .how-to-protect-covid span {
+        position: relative;
+        left: 240px;
+        
+    }
+
+    .what-i-do  {
+        position: relative;
+        top: -30px;
+        left: 250px;
+    }
+
+    .what-i-do h1 {
+       font-size: 21px;
+    }
+
+    .what-i-do span {
+        position: relative;
+        left: 5px;
+    }
+    /* covid-itms */
+    .covid-itm {
+        position: relative;
+        top: 30px;
+        left: -230px;
+    }
+    .covid-itms {
+        margin: 10px 23px;
+    }
+    .covid-itm span img {
+        position: relative;
+        left: 30px;
+    }
+    .covid-itm  p {
+        position: relative;
+        left: -270px;
+    }
+
+    @media screen and (max-width: 500px) {
+        .project-flex {
+            flex: 2;
+        }
+
+        .content-protect {
+            width: 334px;
+            position: relative;
+            top: 540px;
+            margin: 0 20px;
+            height: 1360px;
+        }
+
+        /* svg */
+        .protect-side-img svg {
+            position: relative;
+            left: -32px;
+            top: 30px;
+           width: 390px;
+           height: 424px;
+
+        }
+
+        .how-to-protect-covid h1 {
+            position: relative;
+            top: -70px;
+            left: -34px;
+            width: 360px;
+        }
+
+        .how-to-protect-covid h1 span {
+            position: relative;
+            left: 140px;
+        }
+
+        .how-to-protect-covid p {
+            position: relative;
+            left: -27px;
+            width: 300px;
+            font-size: 18px;
+        }
+        .how-to-protect-covid span {
+            position: relative;
+            left: 2px;
+            width: 100px;
+        }
+
+        .what-i-do {
+            position: relative;
+            top: 120px;
+        }
+
+        .what-i-do h1 {
+           position: relative;
+           top: -6px;
+           left: -230px;
+        }
+
+       .what-i-do h1 span {
+           position: relative;
+           left: 2px;
+        }
+
+        /* covid-itms */
+        .covid-itm {
+            position: relative;
+            top: 10px;
+            left: -230px;
+        }
+
+
+        .covid-itms {
+           width: 82px;
+           height: 170px;
+        }
+
+        .covid-itms span img {
+           position: relative;
+           left: -3px;
+        }
+
+        .covid-itm  p {
+            position: relative;
+            left: -60px;
+        }
+
+
+        /* facemask */
+        .facemask {
+            position: relative;
+            left: -130px;
+        }
+
+        .facemask p {
+            width: 90px;
+            position: relative;
+            left: -10px;
+            font-size: 14px;
+        }
+
+        /* face */
+        .face {
+            position: relative;
+            top: -180px;
+            left: -30px;
+        }
+
+        .face p {
+            position: relative;
+            left: -13px;
+            width: 100px;
+            font-size: 14px;
+        }
+
+        /* contact */
+        .contact {
+            position: relative;
+            top: -370px;
+            left: 70px;
+        }
+
+        .contact p {
+            position: relative;
+            left: -20px;
+            width: 120px;
+            font-size: 15px;
+        }
+
+        /* safe */
+        .safe {
+            position: relative;
+            top: -350px;
+            left: -78px;
+        }
+
+        .safe p {
+            position: relative;
+            left: -20px;
+            width: 120px;
+            font-size: 15px;
+        }
+
+        /* home */
+        .home {
+            position: relative;
+            top: -540px;
+            left: 22px;
+        }
+
+        .home p {
+            position: relative;
+            left: 2px;
+            width: 80px;
+            font-size: 14px;
+        }
+
+        .home p span {
+            position: relative;
+            top: -9px;
+            /* left: -8px; */
+        }
+
+
+
+
+
+        
+
+        
+
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

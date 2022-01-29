@@ -1,0 +1,327 @@
+.covid-content h1 {
+    width: 202px;
+    height: 28px;
+    margin-top: 140px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* svg three */
+.side-svg-three svg {
+    position: fixed;
+    right: 0px;
+    top: 130px;
+}
+
+.covid-main {
+    width: 1200px;
+    height: 216px;
+    background: #ffffff;
+    margin-top: 30px;
+}
+
+.covid-main .covid-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   margin-right: 56px;
+   /* margin-left: 40px; */
+}
+
+/* total casses */
+.covid-main .total-itm-1 svg {
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+
+.covid-main .total-itm-2 svg {
+    position: relative;
+    top: -152px;
+    left: 24px;
+}
+
+.total-casses {
+    position: relative;
+    top: -260px;
+    left: 65px;
+}
+
+.total-casses h2 {
+    padding-left: 50px;
+    margin-top: -15px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.total-casses span {
+    position: relative;
+    top: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 28px;
+    color: #2B6FF3;
+}
+
+.total-casses h3 {
+    margin-top: 16px;
+    padding-left: 60px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 28px;
+}
+
+/* Active casses */
+.covid-main .active-itm-1 svg {
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+
+.covid-main .active-itm-2 svg {
+    position: relative;
+    top: -152px;
+    left: 24px;
+}
+
+.active-casses {
+    position: relative;
+    top: -260px;
+    left: 65px;
+}
+
+.active-casses h2 {
+    padding-left: 50px;
+    margin-top: -15px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.active-casses span {
+    position: relative;
+    top: 10px;
+    left: 7px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 28px;
+    color: #F39911;
+}
+
+.active-casses h3 {
+    margin-top: 16px;
+    padding-left: 64px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 28px;
+}
+
+/* recoverd casses */
+.recoverd-itm-1 svg {
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+
+.recoverd-itm-2 svg {
+    position: relative;
+    top: -152px;
+    left: 24px;
+}
+
+.recoverd-casses {
+    position: relative;
+    top: -260px;
+    left: 65px;
+}
+
+.recoverd-casses h2 {
+    padding-left: 50px;
+    margin-top: -15px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.recoverd-casses span {
+    position: relative;
+    top: 10px;
+    left: 7px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 28px;
+    color: #16B442;
+}
+
+.recoverd-casses h3 {
+    margin-top: 16px;
+    padding-left: 65px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 28px;
+}
+
+
+/* tatal deathe cases */
+.total-death-itm-1 svg {
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+
+.total-death-itm-2 svg {
+    position: relative;
+    top: -152px;
+    left: 24px;
+}
+
+.total-death-casses {
+    position: relative;
+    top: -260px;
+    left: 65px;
+}
+
+.total-death-casses h2 {
+    padding-left: 50px;
+    margin-top: -15px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.total-death-casses span {
+    position: relative;
+    top: 10px;
+    left: 7px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 28px;
+    color: #AA2A2A;
+}
+
+.total-death-casses h3 {
+    margin-top: 16px;
+    padding-left: 74px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 28px;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* svg three */
+    .side-svg-three svg {
+        position: fixed;
+        top: 100px;
+        right: -270px;
+        width: 700px;
+        z-index: 2;
+         
+    }
+    .covid-content h1 {
+        margin-top: 150px;
+        margin-left: 40px;
+    }
+
+    .covid-main {
+        position: relative;
+        top: 30px;
+        width: 687px;
+        margin: 0 40px;
+        height: 42vh;
+    }
+
+    .covid-main .covid-flex {
+       flex-wrap: wrap;
+    }
+
+    .total-itm-1,
+    .active-itm-1 {
+        margin-top: 7px;
+    }
+
+    .recoverd-itm-1,
+    .total-death-itm-1 {
+        margin-top: -225px;
+    }
+
+
+    @media screen and (max-width: 500px) {
+        .side-svg-three svg {
+            position: fixed;
+            width: 500px;
+            height: 180px;
+            left: 70px;
+            top: 50px;
+             
+        }
+
+        .covid-content h1 {
+            margin-left: 20px;
+        }
+
+        .covid-main {
+            position: relative;
+            margin: 0 20px;
+            width: 334px;
+            height: 900px;
+        }
+
+        .covid-main .covid-flex {
+            flex-wrap: wrap;
+        }
+
+        .total-itm-1 {
+            position: relative;
+            top: 10px;
+        }
+
+        .active-itm-1 {
+            position: relative;
+            top: -200px;
+        }
+
+        .recoverd-itm-1 {
+            position: relative;
+            top: -180px;
+        }
+
+        .total-death-itm-1 {
+            position: relative;
+            top: -170px;
+        }
+    }
+}
