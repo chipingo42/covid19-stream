@@ -9,16 +9,17 @@
 .affected-content .affected-inner-img svg {
     position: relative;
     top: -11px;
+    /* z-index: 99; */
 }
 
 /* top affect */
 .top-affect {
     position: relative;
     top: -170px;
+    /* z-index: 22; */
 }
 
 .top-affect h1 {
-    /* width: 266px; */
     height: 28px;
     padding-left: 30px;
     font-family: Rubik;
@@ -48,6 +49,7 @@
     justify-content: space-between;
 }
 
+
 .country-header {
     position: relative;
     top: -150px;
@@ -57,18 +59,25 @@
     border: 1px solid #F1F4FA;
     box-sizing: border-box;
     border-radius: 10px;
+    overflow-y: scroll;
+    white-space: nowrap;
+    /* z-index: -1; */
+   
 }
 
 .country-header h1 {
-    width: 80px;
+    width: 180px;
     height: 57px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 20px;
     font-size: 20px;
     font-family: Rubik;
     font-style: normal;
     font-weight: 200;
     line-height: 28px;
+    position: static;
+    top: 403px;
+    z-index: 21;
 }
 
 /* counties-main */
@@ -77,6 +86,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 15px;
+    transition: all 0.5s ease-in;
+    transition-property: background;
+    cursor: pointer;
+}
+
+.counties-main:hover {
+    background: #16B442;
 }
 
 /* usa */

@@ -1,0 +1,167 @@
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    z-index: 99;
+}
+
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* margin: 0 10px; */
+}
+
+.nav-content .nav-logo svg {
+    position: relative;
+    left: -60px;
+    top: 20px;
+}
+
+.nav-content .nav-logo p {
+    width: 149px;
+    height: 28px;
+    position: relative;
+    top: -18px;
+    left: 43px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2B6FF3;
+}
+
+
+.nav-content ul {
+    display: flex;
+    list-style: none;
+    margin-top: 33px;
+    margin-right: 270px;
+}
+
+.nav-content ul li {
+    margin: 0 25px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.nav-content ul li span {
+    color: #2B6FF3;
+}
+
+.nav-content ul li a {
+    transition: all 0.5s ease-in-out;
+    transition-property: background;
+}
+
+.nav-content ul li :hover {
+    color: coral;
+}
+
+
+/* btn */
+.btn button {
+    width: 197px;
+    height: 46px;
+    margin-top: 18px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+    background: rgba(196, 196, 196, 0.12);
+    border-radius: 3px;
+    transition: all 0.5s ease-in;
+    transition-property: background;
+}
+
+
+/* svg */
+.side-svg-one svg {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    /* z-index: 99; */
+}
+
+/* svg two */
+.side-svg-two svg {
+    position: fixed;
+    right: 0px;
+    top: 80px;
+}
+
+
+/* side-down */
+.side-down svg {
+    position: fixed;
+    bottom: 0;
+    left: -30px;
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+       width: 100%;
+       height: 10vh;
+    }
+
+    .nav-content {
+       flex: 1;
+       margin: 20px 40px;
+    }
+
+    .nav-content ul {
+        display: none;
+    }
+
+    /* svg */
+    .side-svg-one svg {
+        display: none;
+    }
+
+    /* svg two */
+    .side-svg-two svg {
+      display: none;
+    }
+
+    .side-down svg {
+        position: fixed;
+        z-index: 99;
+    }
+
+
+    @media screen and (max-width: 500px) {
+        #navbar {
+            height: 13.7vh;
+        }
+
+        .nav-content .nav-logo svg {
+            position: relative;
+            top: -4px;
+        }
+        .nav-content .nav-logo p {
+            position: relative;
+            top: -40px;
+            left: 40px;
+        }
+
+        .nav-content {
+            flex: 2;
+            margin: 20px 18px;
+        }
+
+        .btn button {
+           position: relative;
+           top: 22px;
+           right: 150px;
+           width: 340px;
+        }
+
+    }
+       
+}
